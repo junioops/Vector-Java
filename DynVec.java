@@ -51,8 +51,7 @@ abstract class DynVec implements def, arrOp {
             ++counter;
         } else {
             array = extend();
-            array[counter] = var;
-            ++counter;
+            push();
         }
     }
 
